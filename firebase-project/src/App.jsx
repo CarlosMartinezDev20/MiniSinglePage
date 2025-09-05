@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router'
 import { useEffect, useState } from 'react'
 import { onAuthStateChanged } from 'firebase/auth'
-import { auth } from './repositories/firebase/config'
+import { auth } from './repositories/firebase/config.js'
 import LoginComponent from './views/login/LoginComponent.jsx'
 import RegisterComponent from './views/login/RegisterComponent.jsx'
 import { Products } from './views/products/Products.jsx'

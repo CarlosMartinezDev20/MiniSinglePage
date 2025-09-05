@@ -5,6 +5,7 @@ import * as yup from 'yup'
 import { yupResolver } from '@hookform/resolvers/yup'
 import { signInWithEmailAndPassword } from 'firebase/auth'
 import { auth } from '../../repositories/firebase/config.js'
+
 import PasswordField from '../../components/PasswordField.jsx'
 
 const schema = yup.object({
